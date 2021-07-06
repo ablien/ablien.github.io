@@ -290,6 +290,7 @@ header h1 {
   font-weight: 900;
   -webkit-text-stroke-width: 0.2px;
   -webkit-text-stroke-color: white;
+  margin-left: 10px;
 }
 
 .section-details-content .breadcrumb-item.active {
@@ -524,6 +525,7 @@ header h1 {
   font-weight: 900;
   -webkit-text-stroke-width: 0.2px;
   -webkit-text-stroke-color: white;
+  margin-left: 10px;
 }
 
 .section-collection-content .breadcrumb-item.active {
