@@ -1,0 +1,638 @@
+body {
+  background-color: white;
+  font-family: 'Roboto', sans-serif;
+  color: black;
+}
+
+.navbar-brand img {
+  max-height: 60px;
+  margin-top: -20px;
+  margin-bottom: -20px;
+}
+
+.navbar-light {
+  background-color: #969494;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #000000;
+}
+
+.btn-navbar-right {
+  margin-top: -10px !important;
+  margin-bottom: -8px  !important;
+  margin-right: -18px !important;
+  height: 70px;
+  border-radius: 0;
+}
+
+.btn-login {
+  background-color: #203568;
+  color: #ffffff;
+}
+
+.btn-login:hover {
+  background-color: #2707b4;
+  color: #ffffff;
+}
+
+header {
+  margin-top: -70px;
+  padding: 180px 0 165px;
+  background-image: url("../images/lib.jpg");
+  background-size: cover;
+}
+
+header h1 {
+  margin-top: -60px;
+  font-family: 'Merriweather', serif;
+  font-weight: bold;
+  font-size: 50px;
+  color: rgba(0, 0, 0, 0.74);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+}
+
+.btn-get-started {
+  background-color: #203568;
+  color: #ffffff;
+}
+
+.btn-get-started:hover {
+  background-color: #2707b4;
+  color: #ffffff;
+}
+
+.section-stats {
+  margin-top: -50px;
+  color: black;
+}
+
+.section-stats .stats-detail {
+  padding-top: 15px;
+  background-color: white;
+  padding-left: 40px;
+}
+
+.section-stats h2 {
+  font-size: 30px;
+  margin-bottom: 0;
+}
+
+.section-stats p {
+  font-size: 20px;
+}
+
+.section-popular {
+  min-height: 540px;
+  background-color: #203568;
+  margin-top: -50px;
+  margin-bottom: -250px;
+}
+
+.section-popular .section-popular-heading {
+  margin-top: 150px;
+}
+
+.section-popular .section-popular-heading h2, .section-popular .section-popular-heading p {
+  color: white;
+}
+
+.section-popular .section-popular-heading h2 {
+  font-family: 'Merriweather', serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.section-popular .section-popular-heading p {
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.section-popular-content .section-popular-book .card-book {
+  min-height: 360px;
+  max-width: 280px;
+  background-color: #000;
+  color: #fff;
+  padding: 30px;
+  background-size: cover;
+  margin-bottom: 100px;
+  margin-top: 100px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.section-popular-content .section-popular-book .nama-buku {
+  margin-top: -120px;
+  font-size: 22px;
+  color: white;
+}
+
+.section-popular-content .section-popular-book .tahun-buku {
+  font-size: 15px;
+  color: white;
+}
+
+.section-popular-content .section-popular-book .buku-button .btn-buku-detail {
+  background-color: #203568;
+  color: #ffffff;
+  margin-bottom: -150px;
+}
+
+.section-popular-content .section-popular-book .buku-button .btn-buku-detail:hover {
+  background-color: #2707b4;
+  color: #ffffff;
+}
+
+.section-networks {
+  background-color: white;
+  margin-top: -170px;
+  padding-top: 300px;
+  padding-bottom: 50px;
+  color: black;
+}
+
+.section-networks h2 {
+  font-family: 'Merriweather', serif;
+  font-weight: bold;
+  font-size: 40px;
+  text-align: left;
+}
+
+.section-networks img {
+  max-width: 150px;
+  max-height: 150px;
+}
+
+.section-networks p {
+  font-size: 18px;
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+}
+
+.section-testimonial-heading {
+  background-color: #203568;
+  padding-top: 50px;
+  min-height: 506px;
+  color: white;
+}
+
+.section-testimonial-heading h2 {
+  font-family: 'Merriweather', serif;
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+}
+
+.section-testimonial-heading p {
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.section-testimonial-content {
+  margin-top: -300px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  background-color: white;
+}
+
+.section-testimonial-content .card-testimonial {
+  padding: 30px 10px 8px;
+  border-radius: 11px;
+  margin-bottom: 20px;
+}
+
+.section-testimonial-content .card-testimonial .testimonial-content {
+  min-height: 380px;
+}
+
+.section-testimonial-content .card-testimonial h3 {
+  font-size: 22px;
+  color: black;
+  font-weight: bold;
+}
+
+.section-testimonial-content .card-testimonial .testimonial {
+  font-weight: normal;
+  font-size: 18px;
+  color: black;
+  min-height: 120px;
+}
+
+.section-testimonial-content .card-testimonial .trip-to {
+  font-weight: bold;
+  font-size: 15px;
+  color: black;
+}
+
+.section-testimonial-content .card-testimonial hr {
+  margin-left: -20px;
+  margin-right: -20px;
+}
+
+.section-testimonial-content .card-testimonial img {
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.section-footer {
+  background-color: #203568;
+}
+
+.section-footer .container {
+  color: white;
+  font-weight: bold;
+  font-size: large;
+}
+
+.section-footer .container .list-unstyled {
+  font-weight: normal;
+  font-size: medium;
+}
+
+.section-footer .container .list-unstyled a {
+  color: black;
+  -webkit-filter: grayscale(1) invert(1);
+  filter: grayscale(1) invert(1);
+  font-weight: bold;
+}
+
+.section-footer .container-fluid {
+  margin-bottom: -50px;
+  background-color: white;
+  color: #203568;
+  padding-bottom: 20px;
+  font-weight: bolder;
+  font-size: 15px;
+}
+
+.section-details-header {
+  min-height: 310px;
+  background: #b1b1b1;
+  margin-top: -70px;
+}
+
+.section-details-content {
+  margin-top: -210px;
+  min-height: 100vh;
+}
+
+.section-details-content .breadcrumb {
+  background-color: transparent;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.section-details-content .breadcrumb-item.active {
+  font-weight: bold;
+  color: #203568;
+}
+
+.section-details-content .card-details {
+  padding: 30px;
+  border-radius: 11px;
+}
+
+.section-details-content .card-details h1 {
+  font-size: 26px;
+}
+
+.section-details-content .card-details h2 {
+  font-size: 20px;
+}
+
+.section-details-content .card-details p {
+  font-size: 18px;
+  color: #b1b1b1;
+  text-align: justify;
+}
+
+.section-details-content .features {
+  margin-top: 20px;
+}
+
+.section-details-content .features h3 {
+  font-size: 18px;
+  color: black;
+  margin-bottom: 0;
+  padding-top: 15px;
+}
+
+.section-details-content .features p {
+  margin-bottom: 0;
+}
+
+.section-details-content .features .description {
+  margin-left: 10px;
+  overflow: hidden;
+  float: left;
+}
+
+.section-details-content .features .features-image {
+  width: 45px;
+  height: 45px;
+  float: left;
+}
+
+.section-details-content .features .infobuku {
+  float: left;
+}
+
+.section-details-content .ulasan h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.section-details-content .ulasan label {
+  font-size: 17px;
+}
+
+.section-details-content .ulasan input[type=submit] {
+  background-color: #203568;
+  border-radius: 5px;
+}
+
+.section-details-content .ulasan .img-comment {
+  width: 500px;
+  height: 150px;
+  padding: 50px;
+  margin-top: 50px;
+}
+
+.section-details-content .gallery .xzoom-container {
+  display: block;
+}
+
+.section-details-content .gallery .xzoom-container .xzoom {
+  width: 100%;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  margin-bottom: 10px;
+}
+
+.section-details-content .gallery .xzoom-container .xactive {
+  border: 2px solid black;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.section-details-content .join-container {
+  margin-top: -16px;
+}
+
+.section-details-content .btn-join-now {
+  background-color: #FF9E53;
+  color: #fff;
+  border-radius: 0;
+}
+
+.section-details-content .btn-join-now:hover {
+  color: #fff;
+}
+
+.section-about-header {
+  min-height: 150px;
+  background: #b1b1b1;
+  margin-top: -70px;
+}
+
+.section-about-content {
+  min-height: 100vh;
+  padding: 30px;
+  margin-bottom: -65px;
+}
+
+.section-about-content .card-details {
+  background-color: #f1ecec;
+  padding: 30px;
+  border-radius: 11px;
+}
+
+.section-about-content .card-details h2, .section-about-content .card-details p, .section-about-content .card-details .mapouter {
+  margin-left: 50px;
+}
+
+.section-about-content .card-details h1 {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.section-about-content .card-details hr {
+  border: 1px solid black;
+}
+
+.section-about-content .card-details h2 {
+  font-size: 20px;
+}
+
+.section-about-content .card-details p {
+  font-size: 18px;
+  color: #000000;
+}
+
+.section-faq {
+  min-height: 310px;
+  background: #b1b1b1;
+  margin-top: -70px;
+}
+
+.section-faq-content {
+  margin-top: -210px;
+  min-height: 100pxvh;
+}
+
+.section-faq-content .box {
+  width: 700px;
+  margin: 100px auto;
+  background: #fff;
+  border-radius: 7px;
+  -webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.3);
+          box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.section-faq-content .box .heading {
+  background: #203568;
+  border-radius: 7px 7px 0px 0px;
+  padding: 10px;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.section-faq-content .faqs {
+  padding: 0px 20px 20px;
+}
+
+.section-faq-content ::-webkit-details-marker {
+  float: right;
+  margin-top: 3px;
+}
+
+.section-faq-content details {
+  background: #ebe5e5;
+  padding: 10px 20px;
+  border-radius: 7px;
+  margin-top: 20px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.section-faq-content details .text {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  background-color: #ffffff;
+  border-radius: 7px;
+  padding: 7px;
+  font-weight: normal;
+}
+
+.section-faq-content details summary {
+  outline: none;
+}
+
+.section-collection-header {
+  min-height: 310px;
+  background: #b1b1b1;
+  margin-top: -70px;
+}
+
+.section-collection-content {
+  margin-top: -210px;
+  min-height: 100vh;
+  /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
+}
+
+.section-collection-content .breadcrumb {
+  background-color: transparent;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.section-collection-content .breadcrumb-item.active {
+  font-weight: bold;
+  color: #203568;
+}
+
+.section-collection-content input[type=submit] {
+  background-color: #203568;
+  color: #ffffff;
+  border-radius: 4px;
+  width: 100px;
+}
+
+.section-collection-content input[type=submit]:hover {
+  background-color: #2707b4;
+  color: #ffffff;
+}
+
+.section-collection-content input[type=text] {
+  float: right;
+  padding: 6px;
+  width: 400px;
+  border: 0.1px solid #203568;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+
+@media screen and (max-width: 600px) {
+  .section-collection-content input[type=text] {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .section-collection-content input[type=text] {
+    border: 1px solid #203568;
+  }
+}
+
+.section-collection-content .section-collection-book .card-book {
+  height: 300px;
+  width: 250px;
+  background-color: #000;
+  color: #fff;
+  padding: 30px;
+  background-size: cover;
+  margin-bottom: 100px;
+  margin-top: 150px;
+  font-family: 'Roboto', sans-serif;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+.section-collection-content .section-collection-book .nama-buku {
+  margin-top: -120px;
+  font-size: 22px;
+  color: black;
+}
+
+.section-collection-content .section-collection-book .tahun-buku {
+  font-size: 15px;
+  color: black;
+}
+
+.section-collection-content .section-collection-book .buku-button .btn-buku-detail {
+  background-color: #203568;
+  color: #ffffff;
+  margin-bottom: -150px;
+}
+
+.section-collection-content .section-collection-book .buku-button .btn-buku-detail:hover {
+  background-color: #2707b4;
+  color: #ffffff;
+}
+
+.section-collection-content .card-details {
+  padding: 30px;
+  border-radius: 11px;
+}
+
+.section-collection-content .card-details h1 {
+  font-size: 26px;
+}
+
+.section-collection-content .card-details h2 {
+  font-size: 20px;
+}
+
+.section-collection-content .card-details p {
+  font-size: 18px;
+  color: #b1b1b1;
+}
+
+.features {
+  margin-top: 20px;
+}
+
+.features h3 {
+  font-size: 18px;
+  color: black;
+  margin-bottom: 0;
+  padding-top: 15px;
+}
+
+.features p {
+  margin-bottom: 0;
+}
+
+.features .description {
+  margin-left: 10px;
+  overflow: hidden;
+  float: left;
+}
+
+.features .features-image {
+  width: 45px;
+  height: 45px;
+  float: left;
+}
+
+.features .infobuku {
+  float: left;
+}
+/*# sourceMappingURL=main.css.map */
