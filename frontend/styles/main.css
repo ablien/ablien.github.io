@@ -266,9 +266,14 @@ header h1 {
 }
 
 .section-details-header {
-  min-height: 310px;
-  background: #b1b1b1;
   margin-top: -70px;
+  padding: 180px 0 165px;
+  background-image: url("../images/lib.jpg");
+  background-size: cover;
+  margin-top: -70px;
+  padding: 180px 0 165px;
+  background-image: url("../images/lib.jpg");
+  background-size: cover;
 }
 
 .section-details-content {
@@ -280,6 +285,9 @@ header h1 {
   background-color: transparent;
   padding: 0;
   margin-bottom: 30px;
+  font-weight: 900;
+  -webkit-text-stroke-width: 0.2px;
+  -webkit-text-stroke-color: white;
 }
 
 .section-details-content .breadcrumb-item.active {
@@ -390,9 +398,10 @@ header h1 {
 }
 
 .section-about-header {
-  min-height: 150px;
-  background: #b1b1b1;
   margin-top: -70px;
+  padding: 180px 0 165px;
+  background-image: url("../images/lib.jpg");
+  background-size: cover;
 }
 
 .section-about-content {
@@ -430,9 +439,10 @@ header h1 {
 }
 
 .section-faq {
-  min-height: 310px;
-  background: #b1b1b1;
   margin-top: -70px;
+  padding: 180px 0 165px;
+  background-image: url("../images/lib.jpg");
+  background-size: cover;
 }
 
 .section-faq-content {
@@ -493,9 +503,10 @@ header h1 {
 }
 
 .section-collection-header {
-  min-height: 310px;
-  background: #b1b1b1;
   margin-top: -70px;
+  padding: 180px 0 165px;
+  background-image: url("../images/lib.jpg");
+  background-size: cover;
 }
 
 .section-collection-content {
@@ -508,6 +519,9 @@ header h1 {
   background-color: transparent;
   padding: 0;
   margin-bottom: 30px;
+  font-weight: 900;
+  -webkit-text-stroke-width: 0.2px;
+  -webkit-text-stroke-color: white;
 }
 
 .section-collection-content .breadcrumb-item.active {
